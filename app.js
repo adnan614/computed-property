@@ -11,11 +11,11 @@ new Vue({
 
    computed:{
        addToA(){
-           console.log("Add a");
+           console.log("Add b");
            return this.a + this.salary;
        },
        addToB(){
-        console.log("Add b");
+        console.log("Add c");
            return this.b + this.salary;
        }
    }
